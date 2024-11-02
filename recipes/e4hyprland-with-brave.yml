@@ -23,6 +23,48 @@ modules:
       # - micro
       # - starship
       - brave-browser
+      # AGS Dependencies
+      - gjs
+      - glib2
+      - glib2-devel
+      - glibc
+      - gtk3
+      - gtk-layer-shell
+      - pulseaudio-libs-devel
+      - pam
+      # Optional
+      - gnome-bluetooth
+      - greetd
+      - libdbusmenu-gtk3
+      - libsoup3
+      - libnotify
+      - NetworkManager
+      - power-profiles-daemon
+      - upower
+      
+      # Audio
+      - pavucontrol
+      - wireplumber
+      - playerctl
+      - swww
+      # Backlight
+      - brightnessctl
+      - ddcutil
+      # Basic packages
+      - axel
+      - bc
+      - coreutils
+      - cmake
+      - curl
+      - fuzzel
+      - rsync
+      - wget
+      - ripgrep
+      - jq
+      - npm
+      - meson
+      - typescript
+      - xdg-user-dirs
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
