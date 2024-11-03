@@ -1,4 +1,4 @@
-install_brave:
+install-brave: # Install the brave browser. Not included by default due to controversey. Flatpak is advised against as the developers themselves state that it isn't as well maintained
 	#!/bin/bash
 
 	# this script installs Brave Repo and GPG key or the Vivaldi Repo interactively,
@@ -114,3 +114,5 @@ install_brave:
 		read -r -p "Which Browser do you want to install? (1-7): " browser_choice
 		;;
 	esac
+install-nix: 
+  curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
