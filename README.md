@@ -32,18 +32,29 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## Hyprland setup dependencies
 
-The hyprland dots files being used were originally made for arch-based distros, so a couple of dependencies are missing. To fix this, there are 2 options.
+The hyprland dots files being used were originally made for arch-based distros, so a couple of dependencies are missing in the fedora repos. To fix this, there are 2 options.
 
 ### Using Nix
 
 `echo "extra-experimental-features = nix-command flakes" | sudo tee /etc/nix/nix.conf`
-`nix profile install nixpkgs#blueberry` (or add `blueberry` to your home-manager configuration if you have one)
+`nix profile install nixpkgs#{blueberry,matugen}`
+Or, add the following packages to your home-manager configuration if you have one
+```
+blueberry
+matugen
+gradience
+```
 
 ### Using distrobox
 
 `ujust assemble` then enter 2
 `distrobox enter arch`
-`sudo pacman -Syu blueberry` (you can just do `pacman -S blueberry` if you already had the container set up)
+```
+git clone https://aur.archlinux.org/paru-bin.git
+cd paru-bin
+makepkg -si
+```
+`paru -Syu blueberry`
 `distrobox-export -b $(which blueberry)`
 
 ## ISO
