@@ -30,6 +30,22 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
 
+## Hyprland setup dependencies
+
+The hyprland dots files being used were originally made for arch-based distros, so a couple of dependencies are missing. To fix this, there are 2 options.
+
+### Using Nix
+
+`echo "extra-experimental-features = nix-command flakes" | sudo tee /etc/nix/nix.conf`
+`nix profile install nixpkgs#blueberry` (or add `blueberry` to your home-manager configuration if you have one)
+
+### Using distrobox
+
+`ujust assemble` then enter 2
+`distrobox enter arch`
+`sudo pacman -Syu blueberry` (you can just do `pacman -S blueberry` if you already had the container set up)
+`distrobox-export -b $(which blueberry)`
+
 ## ISO
 
 If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
