@@ -19,6 +19,7 @@ modules:
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
        - https://copr.fedorainfracloud.org/coprs/msmafra/hyprland/repo/fedora-%OS_VERSION%/msmafra-hyprland-fedora-%OS_VERSION%.repo
+       - https://copr.fedorainfracloud.org/coprs/peterwu/rendezvous/repo/fedora-%OS_VERSION%/peterwu-rendezvous-fedora-%OS_VERSION%.repo
     install:
       # - micro
       # - starship
@@ -33,7 +34,6 @@ modules:
        - pulseaudio-libs-devel
        - pam
        # Optional
-       - gnome-bluetooth
        - greetd
        - libdbusmenu-gtk3
        - libsoup3
@@ -50,7 +50,7 @@ modules:
        # Backlight
        - brightnessctl
        - ddcutil
-       # Basic packages
+       # Misc
        - axel
        - bc
        - coreutils
@@ -65,6 +65,33 @@ modules:
        - meson
        - typescript
        - xdg-user-dirs
+       - xdg-user-dirs-gtk
+       - bibata-cursor-themes
+       - adw-gtk3-theme
+       - qt5ct
+       - qt5-qtwayland
+       - fontconfig
+       - jetbrains-mono-fonts
+       - google-noto-sans-symbols-vf-fonts
+       - cascadia-mono-nf-fonts
+       - google-rubik-fonts
+       - polkit-gnome
+       - gnome-keyring
+       - gnome-control-center
+       - gammastep
+       - gnome-bluetooth
+       - webp-pixbuf-loader
+       - gtksourceview3
+       - gobject-introspection
+       - yad
+       - ydotool
+       - tinyxml2
+       - gtkmm3.0
+       - gtksourceviewmm
+       - cairomm
+       - xdg-desktop-portal
+       - xdg-desktop-portal-gtk
+       - xdg-desktop-portal-hyprland
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
