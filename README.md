@@ -37,11 +37,10 @@ The hyprland dots files being used were originally made for arch-based distros, 
 ### Using Nix
 
 `echo "extra-experimental-features = nix-command flakes" | sudo tee /etc/nix/nix.conf`
-`nix profile install nixpkgs#{blueberry,matugen}`
+`nix profile install nixpkgs#{blueberry,matugen,python312Packages.material-color-utilities}`
 Or, add the following packages to your home-manager configuration if you have one
 ```
 blueberry
-matugen
 gradience
 ```
 
@@ -53,8 +52,10 @@ gradience
 git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin
 makepkg -si
+cd ..
+rm -rf paru-bin
 ```
-`paru -Syu blueberry`
+`paru -Syu blueberry --noconfirm`
 `distrobox-export -b $(which blueberry)`
 
 ## ISO
