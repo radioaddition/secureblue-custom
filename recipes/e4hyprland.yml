@@ -75,7 +75,7 @@ modules:
        - google-noto-sans-symbols-vf-fonts
        - cascadia-mono-nf-fonts
        - google-rubik-fonts
-       - polkit-gnome
+       - mate-polkit
        - gnome-keyring
        - gnome-control-center
        - gammastep
