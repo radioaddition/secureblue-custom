@@ -20,10 +20,14 @@ modules:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
        - https://copr.fedorainfracloud.org/coprs/msmafra/hyprland/repo/fedora-%OS_VERSION%/msmafra-hyprland-fedora-%OS_VERSION%.repo
        - https://copr.fedorainfracloud.org/coprs/peterwu/rendezvous/repo/fedora-%OS_VERSION%/peterwu-rendezvous-fedora-%OS_VERSION%.repo
+       - https://copr.fedorainfracloud.org/coprs/yselkowitz/xapps/repo/fedora-%OS_VERSION%/yselkowitz-xapps-fedora-%OS_VERSION%.repo
+       - https://copr.fedorainfracloud.org/coprs/eyecantcu/gradience/repo/fedora-%OS_VERSION%/eyecantcu-gradience-fedora-%OS_VERSION%.repo
+       - https://copr.fedorainfracloud.org/coprs/@copr/PyPI/repo/fedora-%OS_VERSION%/@copr-PyPI-fedora-%OS_VERSION%.repo
     install:
       # - micro
       # - starship
        - zsh
+       - neovim
        # AGS Dependencies
        - gjs
        - glib2
@@ -92,6 +96,17 @@ modules:
        - xdg-desktop-portal
        - xdg-desktop-portal-gtk
        - xdg-desktop-portal-hyprland
+       - python3-build
+       - python3-pillow
+       - python-pywal
+       - python3-setuptools_scm
+       - python3-wheel
+       - swappy
+       - wf-recorder
+       - tesseract
+       - tesseract-osd
+       - python3-pywayland
+       - python3-psutil
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
