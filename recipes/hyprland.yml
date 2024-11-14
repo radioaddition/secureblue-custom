@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
-name: secureblue-custom
+name: secureblue-custom-hyprland
 # description will be included in the image's metadata
-description: This is my personal OS image.
+description: Personal build of secureblue using [end-4's hyprland dotfiles](https://github.com/end-4/dots-hyprland/tree/main)
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/secureblue/wayblue-hyprland-main-userns-hardened

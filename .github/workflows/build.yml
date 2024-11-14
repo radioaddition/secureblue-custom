@@ -22,7 +22,8 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - e4hyprland.yml
+          - hyprland.yml
+          - gnome.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
