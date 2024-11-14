@@ -27,19 +27,8 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   systemctl reboot
   ```
-
+Make sure you follow the [postinstall steps](POSTINSTALL.md)
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
-
-## Hyprland setup dependencies
-
-The hyprland dots files being used were originally made for arch-based distros, so a couple of dependencies are missing in the fedora repos.
-
-### Using Homebrew
-`brew install sass/sass/sass`
-
-## ISO
-
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
 
 ## Verification
 
