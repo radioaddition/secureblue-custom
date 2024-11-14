@@ -98,7 +98,6 @@ modules:
        - xdg-desktop-portal-hyprland
        - python3-build
        - python3-pillow
-       - python-pywal
        - python3-setuptools_scm
        - python3-wheel
        - swappy
