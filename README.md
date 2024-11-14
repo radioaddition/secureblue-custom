@@ -40,5 +40,5 @@ The `latest` tag will automatically point to the latest build. That build will s
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
 
 ```bash
-cosign verify --key cosign.pub ghcr.io/radioaddition/secureblue-custom
+cosign verify --key cosign.pub ghcr.io/radioaddition/secureblue-custom-$IMAGE
 ```
