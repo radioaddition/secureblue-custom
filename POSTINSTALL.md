@@ -1,7 +1,6 @@
 # Installing missing dependencies
 As the dotfiles for this image are originally made for arch, not all of the dependencies are available on the fedora repos or copr. Please install them below
-Sass:
-`brew install sass/sass/sass`
+Sass: `brew install sass/sass/sass`
 Anyrun:
 First, set up build dependencies:
 ```
@@ -27,3 +26,4 @@ cp target/release/*.so ~/.config/anyrun/plugins
 # Copy the default config file
 cp examples/config.ron ~/.config/anyrun/config.ron
 ```
+Pywal: `pip install pywal`
