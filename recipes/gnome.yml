@@ -27,6 +27,8 @@ modules:
       - neovim
       - python3
       - python3-pip
+      - rust
+      - cargo
       - fzf
       - iosevka
       - iosevka-fonts
