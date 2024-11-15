@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: secureblue-custom-hyprland
 # description will be included in the image's metadata
-description: Personal build of secureblue using [end-4's hyprland dotfiles](https://github.com/end-4/dots-hyprland/tree/main)
+description: Personal build of secureblue using Hyprland
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/secureblue/wayblue-hyprland-main-userns-hardened
@@ -29,88 +29,6 @@ modules:
       # - starship
       - zsh
       - neovim
-      # AGS Dependencies
-      - gjs
-      - glib2
-      - glib2-devel
-      - glibc
-      - gtk3
-      - gtk-layer-shell
-      - pulseaudio-libs-devel
-      - pam
-      # Optional
-      - greetd
-      - libdbusmenu-gtk3
-      - libsoup3
-      - libnotify
-      - NetworkManager
-      - power-profiles-daemon
-      - upower
-      
-      # Audio
-      - pavucontrol
-      - wireplumber
-      - playerctl
-      - swww
-      # Backlight
-      - brightnessctl
-      - ddcutil
-      # Misc
-      - axel
-      - bc
-      - coreutils
-      - cmake
-      - curl
-      - fuzzel
-      - rsync
-      - wget
-      - ripgrep
-      - jq
-      - npm
-      - meson
-      - typescript
-      - xdg-user-dirs
-      - xdg-user-dirs-gtk
-      - bibata-cursor-themes
-      - adw-gtk3-theme
-      - qt5ct
-      - qt5-qtwayland
-      - fontconfig
-      - jetbrains-mono-fonts
-      - google-noto-sans-symbols-vf-fonts
-      - cascadia-mono-nf-fonts
-      - google-rubik-fonts
-      - mate-polkit
-      - gnome-keyring
-      - gnome-control-center
-      - gammastep
-      - gnome-bluetooth
-      - webp-pixbuf-loader
-      - gtksourceview3
-      - gobject-introspection
-      - yad
-      - ydotool
-      - tinyxml2
-      - gtkmm3.0
-      - gtksourceviewmm
-      - cairomm
-      - xdg-desktop-portal
-      - xdg-desktop-portal-gtk
-      - xdg-desktop-portal-hyprland
-      - python3-build
-      - python3-pip
-      - python3-pillow
-      - python3-setuptools_scm
-      - python3-wheel
-      - swappy
-      - wf-recorder
-      - tesseract
-      - tesseract-osd
-      - python3-pywayland
-      - python3-psutil
-      - pango
-      - cairo
-      - gdk-pixbuf2
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
