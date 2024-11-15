@@ -5,28 +5,13 @@ As the dotfiles for this image are originally made for arch, not all of the depe
 Sass: `brew install sass/sass/sass`
 
 Anyrun:
-First, set up build dependencies:
 ```
-ujust assemble # select "fedora" or "all"
-distrobox enter fedora
-sudo dnf install cargo
-```
-Then, build & install the package
-```
- # Clone the repository and move to the cloned location
-git clone https://github.com/Kirottu/anyrun.git && cd anyrun
-
-# Build all packages, and install the Anyrun binary
-cargo build --release
-cargo install --path anyrun/
-
-# Create the config directory and the plugins subdirectory
-mkdir -p ~/.config/anyrun/plugins
-
-# Copy all of the built plugins to the correct directory
-cp target/release/*.so ~/.config/anyrun/plugins
-
-# Copy the default config file
-cp examples/config.ron ~/.config/anyrun/config.ron
+ujust assemble # select "arch" or "all"
+distrobox enter arch
+sudo pacman -Syu git base-devel
+git clone https://aur.archlinux.org/paru-bin.git && cd paru-bin
+makepkg -si
+paru -Syu anyrun-git
+distrobox-export -b $(which anyrun)
 ```
 Pywal: `pip install pywal`
