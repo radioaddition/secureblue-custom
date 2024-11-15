@@ -31,8 +31,6 @@ modules:
       - cargo
       - fzf
       - iosevka
-      - iosevka-fonts
-      - iosevka-term-fonts
       - pop-gnome-shell-theme
       - pop-launcher
       - gnome-shell-extension-pop-shell
