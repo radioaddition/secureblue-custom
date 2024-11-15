@@ -30,6 +30,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 - Where `$IMAGE` is one of:
   - `secureblue-custom-gnome`
   - `secureblue-custom-hyprland`
+NOTE: Hyprland is currently not recommended due to a lack of screen security. I most likely won't update the recipe for this image until this is changed. the image will still receive automatic updates from upstream
 
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
 
