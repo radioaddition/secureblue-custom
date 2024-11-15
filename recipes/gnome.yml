@@ -26,6 +26,7 @@ modules:
       - neovim
       - python3
       - python3-pip
+      - fzf
       - gnome-shell-extension-pop-shell
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-caffeine
