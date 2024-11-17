@@ -9,7 +9,8 @@ After setup, it is recommended you update this README to describe your custom im
 > **Warning**  
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
-To rebase an existing atomic Fedora installation to the latest build:
+First, install [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/)
+Then, rebase to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
