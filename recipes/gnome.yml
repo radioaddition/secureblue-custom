@@ -25,8 +25,8 @@ modules:
       # - starship
       - zsh
       - neovim
-      - rust
-      - cargo
+      # - rust
+      # - cargo
       - iosevka-fonts
       - pop-gnome-shell-theme
       - pop-launcher
