@@ -25,6 +25,7 @@ modules:
       # - starship
       - zsh
       - neovim
+      - uutils-coreutils
       # - rust
       # - cargo
       - iosevka-fonts
@@ -40,6 +41,7 @@ modules:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      - coreutils
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
