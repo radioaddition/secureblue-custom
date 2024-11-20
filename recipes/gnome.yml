@@ -38,13 +38,8 @@ modules:
       - gnome-shell-extension-gsconnect
       - gnome-shell-extension-blur-my-shell
       - gnome-shell-extension-dash-to-dock
-      - gnome-shell-extension-gpaste
       - gnome-shell-extension-search-light
-      - gnome-shell-extension-tailscale-status
-      - gnome-shell-extension-tailscale-gnome-qs
       - gnome-shell-extension-logo-menu
-      - gnome-shell-extension-auto-power-profile
-      - gnome-shell-extension-power-profile-switcher
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
