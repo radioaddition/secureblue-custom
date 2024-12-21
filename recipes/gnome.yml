@@ -25,6 +25,7 @@ modules:
       # - micro
       # - starship
       - zsh
+      - ecryptfs-utils
       - neovim
       - uutils-coreutils
       - iosevka-fonts
