@@ -4,7 +4,7 @@ name: secureblue-custom-hyprland
 description: Personal build of secureblue using Hyprland
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/secureblue/wayblue-hyprland-main-userns-hardened
+base-image: ghcr.io/secureblue/wayblue-hyprland-main-hardened
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
