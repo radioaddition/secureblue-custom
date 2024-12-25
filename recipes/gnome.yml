@@ -24,7 +24,7 @@ modules:
       - 6310 # Window title status bar
       - 5489 # Search light
       - 307 # Dock
-      - 4709 # Restore windows at login
+      - 4691 # PiP on top
   - type: rpm-ostree
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
