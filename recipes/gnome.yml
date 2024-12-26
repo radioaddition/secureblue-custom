@@ -38,6 +38,7 @@ modules:
       - ecryptfs-utils
       - neovim
       - uutils-coreutils
+      - android-tools
       - iosevka-fonts
       # pop-shell packages
       - pop-launcher
