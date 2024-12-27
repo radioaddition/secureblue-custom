@@ -28,6 +28,7 @@ modules:
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/peterwu/iosevka/repo/fedora-%OS_VERSION%/peterwu-iosevka-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-%OS_VERSION%/kylegospo-bazzite-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
@@ -37,9 +38,10 @@ modules:
       - uutils-coreutils
       - android-tools
       - android-udev-rules
-      # The extensions below don't work through the gnome-extensions module
+      # The extensions below either aten't available or don't work on  q the gnome-extensions module
       - gnome-shell-extension-gsconnect
       - gnome-shell-extension-logo-menu
+      - gnome-shell-extension-hanabi
       
       - iosevka-fonts
       # pop-shell packages
