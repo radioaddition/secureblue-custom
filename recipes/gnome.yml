@@ -33,7 +33,6 @@ modules:
     install:
       # - micro
       - zsh
-      - ecryptfs-utils
       - neovim
       - uutils-coreutils
       - android-tools
