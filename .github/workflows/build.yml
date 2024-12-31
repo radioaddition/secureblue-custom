@@ -22,9 +22,10 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - hyprland.yml
           - gnome.yml
-          - gnome-nvidia.yml
+          - gnome-lts.yml
+          - hyprland.yml
+          - hyprland-lts.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
