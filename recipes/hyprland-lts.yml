@@ -6,3 +6,4 @@ image-version: latest # latest is also supported if you want new updates ASAP
 
 modules:
   from-file: common.yml
+  from-file: lts.yml
