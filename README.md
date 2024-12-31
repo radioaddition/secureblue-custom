@@ -29,7 +29,6 @@ Then, rebase to the latest build:
 - Where `$IMAGE` is one of:
   - `secureblue-custom-gnome-lts`
   - `secureblue-custom-gnome`
-  - `secureblue-custom-gnome-nvidia`
   - `secureblue-custom-hyprland`
   - `secureblue-custom-hyprland-lts`
 NOTE: Hyprland is currently not recommended due to a lack of screen security. I most likely won't update the recipe for this image until this is changed. the image will still receive automatic updates from upstream

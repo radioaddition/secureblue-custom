@@ -1,9 +1,0 @@
-name: secureblue-custom-gnome-nvidia
-description: GNOME version of my personal secureblue build. This is the recommended image as hyprland doesn't currently have screen capture security
-
-base-image: ghcr.io/secureblue/silverblue-nvidia-hardened
-image-version: latest
-
-modules:
-  - from-file: common.yml
-  - from-file: extensions.yml
