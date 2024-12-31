@@ -2,8 +2,8 @@ name: secureblue-custom-hyprland-lts
 description: Personal build of secureblue using Hyprland
 
 base-image: ghcr.io/secureblue/wayblue-hyprland-main-hardened
-image-version: latest # latest is also supported if you want new updates ASAP
+image-version: latest
 
 modules:
-  from-file: common.yml
-  from-file: lts.yml
+  - from-file: common.yml
+  - from-file: lts.yml
