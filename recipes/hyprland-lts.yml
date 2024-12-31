@@ -1,4 +1,4 @@
-name: secureblue-custom-hyprland
+name: secureblue-custom-hyprland-lts
 description: Personal build of secureblue using Hyprland
 
 base-image: ghcr.io/secureblue/wayblue-hyprland-main-hardened

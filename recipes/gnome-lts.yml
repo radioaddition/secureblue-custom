@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: secureblue-custom-gnome
+name: secureblue-custom-gnome-lts
 # description will be included in the image's metadata
 description: GNOME version of my personal secureblue build. This is the recommended image as hyprland doesn't currently have screen capture security
 
