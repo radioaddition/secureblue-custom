@@ -10,17 +10,6 @@ modules:
         - IosevkaTermSlab
       - google-fonts:
         - Noto Sans
-  - type: gnome-extensions
-    install:
-      - 3193 # Blur my shell
-      - 615 # Appindicator
-      - 4269 # Alphabetical app grid
-      - 517 # Caffeine
-      - 6310 # Window title status bar
-      - 5489 # Search light
-      - 307 # Dock
-      - 4691 # PiP on top
-      - 4648 # Desktop Cube
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-%OS_VERSION%/kylegospo-bazzite-fedora-%OS_VERSION%.repo
