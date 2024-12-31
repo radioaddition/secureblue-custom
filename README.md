@@ -27,9 +27,11 @@ Then, rebase to the latest build:
   systemctl reboot
   ```
 - Where `$IMAGE` is one of:
+  - `secureblue-custom-gnome-lts`
   - `secureblue-custom-gnome`
   - `secureblue-custom-gnome-nvidia`
   - `secureblue-custom-hyprland`
+  - `secureblue-custom-hyprland-lts`
 NOTE: Hyprland is currently not recommended due to a lack of screen security. I most likely won't update the recipe for this image until this is changed. the image will still receive automatic updates from upstream
 
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
