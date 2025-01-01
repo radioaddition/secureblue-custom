@@ -19,6 +19,7 @@ modules:
     install:
       - zsh
       - neovim
+      - dkms
       - uutils-coreutils
       - android-tools
       - android-udev-rules
