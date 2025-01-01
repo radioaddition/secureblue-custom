@@ -9,3 +9,4 @@ install:
   - 5489 # Search light
   - 307 # Dock
   - 4691 # PiP on top
+  - 7538 # To Do List
