@@ -15,6 +15,6 @@ install-rust:
 	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 _setup_gnomintosh:
 #!/usr/bin/env bash
-git clone https://github.com/jothi-prasath/gnomintosh.git
-cd gnomintosh
-./main.sh
+	git clone https://github.com/jothi-prasath/gnomintosh.git
+	cd gnomintosh
+	./main.sh
