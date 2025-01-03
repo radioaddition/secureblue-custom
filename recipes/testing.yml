@@ -10,6 +10,13 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+    fonts:
+      - nerd-fonts:
+        - Iosevka
+        - IosevkaTerm
+        - IosevkaTermSlab
+      - google-fonts:
+        - Noto Sans
     type: gnome-extensions
     install:
       - 3193 # Blur my shell
@@ -23,13 +30,6 @@ modules:
       - 7 # Removable drive menu
       - 841 # Freon
       - 3843 # Just Perfection
-    fonts:
-      - nerd-fonts:
-        - Iosevka
-        - IosevkaTerm
-        - IosevkaTermSlab
-      - google-fonts:
-        - Noto Sans
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-%OS_VERSION%/kylegospo-bazzite-fedora-%OS_VERSION%.repo
