@@ -41,7 +41,6 @@ modules:
       - uutils-coreutils
       - dconf-editor
       - gnome-tweaks
-      - gnome-shell-extension
       - android-tools
       - android-udev-rules
       # The extensions below either aten't available or don't work on  q the gnome-extensions module
@@ -77,5 +76,5 @@ modules:
 
   - type: bling
     install:
-      - gnome-vrr
+      - ublue-update
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
