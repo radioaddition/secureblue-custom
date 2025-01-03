@@ -18,6 +18,7 @@ modules:
       - google-fonts:
         - Noto Sans
   - type: justfiles
+  - type: gschema-overrides
   - type: gnome-extensions
     install:
       - 3193 # Blur my shell
