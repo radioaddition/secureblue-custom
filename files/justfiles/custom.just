@@ -19,4 +19,4 @@ _setup_gnomintosh:
 	git clone https://github.com/jothi-prasath/gnomintosh.git
 	cd gnomintosh
 	chmod a+x main.sh
-	./main.sh
+	./main.sh install
