@@ -55,6 +55,5 @@ modules:
 
   - type: bling
     install:
-      - ublue-update
       - gnome-vrr
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
