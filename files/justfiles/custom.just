@@ -18,4 +18,5 @@ _setup_gnomintosh:
 	#!/usr/bin/env bash
 	git clone https://github.com/jothi-prasath/gnomintosh.git
 	cd gnomintosh
+	chmod a+x main.sh
 	./main.sh
