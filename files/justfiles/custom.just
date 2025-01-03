@@ -13,8 +13,9 @@ alias rust := install-rust
 # Installs the rust toolkit, which includes the cargo package manager
 install-rust:
 	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+[no-cd]
 _setup_gnomintosh:
-#!/usr/bin/env bash
+	#!/usr/bin/env bash
 	git clone https://github.com/jothi-prasath/gnomintosh.git
 	cd gnomintosh
 	./main.sh
