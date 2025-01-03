@@ -17,6 +17,7 @@ modules:
         - IosevkaTermSlab
       - google-fonts:
         - Noto Sans
+  - type: justfiles
   - type: gnome-extensions
     install:
       - 3193 # Blur my shell
