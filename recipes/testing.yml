@@ -1,9 +1,28 @@
+name: secureblue-custom-testing
+description: GNOME version of my personal secureblue build. This is the recommended image as hyprland doesn't currently have screen capture security
+
+base-image: ghcr.io/secureblue/silverblue-main-hardened
+image-version: latest
+
 modules:
   - from-file: duress.yml
   - type: files
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+    type: gnome-extensions
+    install:
+      - 3193 # Blur my shell
+      - 615 # Appindicator
+      - 4269 # Alphabetical app grid
+      - 517 # Caffeine
+      - 6310 # Window title status bar
+      - 5489 # Search light
+      - 307 # Dock
+      - 4691 # PiP on top
+      - 7 # Removable drive menu
+      - 841 # Freon
+      - 3843 # Just Perfection
     fonts:
       - nerd-fonts:
         - Iosevka
@@ -20,6 +39,9 @@ modules:
       - zsh
       - neovim
       - uutils-coreutils
+      - dconf-editor
+      - gnome-tweaks
+      - gnome-shell-extension
       - android-tools
       - android-udev-rules
       # The extensions below either aten't available or don't work on  q the gnome-extensions module
@@ -53,8 +75,4 @@ modules:
       remove:
       # - org.gnome.eog
 
-  - type: bling
-    install:
-      - ublue-update
-      - gnome-vrr
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
