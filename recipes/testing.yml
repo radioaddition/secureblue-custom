@@ -42,6 +42,7 @@ modules:
       - uutils-coreutils
       - dconf-editor
       - gnome-tweaks
+      - lm_sensors
       - android-tools
       - android-udev-rules
       # The extensions below either aten't available or don't work on  q the gnome-extensions module
