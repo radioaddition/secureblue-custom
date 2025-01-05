@@ -7,3 +7,11 @@ image-version: latest
 modules:
   - from-file: common.yml
   - from-file: extensions.yml
+  - type: rpm-ostree
+    install:
+    - gnome-shell-extension-gsconnect
+    - gnome-shell-extension-logo-menu
+    - gnome-shell-extension-hanabi
+    - pop-launcher
+    - pop-gnome-shell-theme
+    - gnome-shell-extension-pop-shell
