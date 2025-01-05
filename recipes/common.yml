@@ -12,6 +12,7 @@ modules:
       - google-fonts:
         - Noto Sans
   - type: justfiles
+  - type: gschema-overrides
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-%OS_VERSION%/kylegospo-bazzite-fedora-%OS_VERSION%.repo
@@ -23,14 +24,7 @@ modules:
       - uutils-coreutils
       - android-tools
       - android-udev-rules
-      # The extensions below either aten't available or don't work on  q the gnome-extensions module
-      - gnome-shell-extension-gsconnect
-      - gnome-shell-extension-logo-menu
-      - gnome-shell-extension-hanabi
-      # pop-shell packages
-      - pop-launcher
-      - pop-gnome-shell-theme
-      - gnome-shell-extension-pop-shell
+      - lm_sensors
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
