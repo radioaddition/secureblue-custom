@@ -1,5 +1,5 @@
 name: secureblue-custom-testing
-description: GNOME version of my personal secureblue build. This is the recommended image as hyprland doesn't currently have screen capture security
+description: Testing image
 
 base-image: ghcr.io/secureblue/silverblue-main-hardened
 image-version: latest
