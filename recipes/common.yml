@@ -47,7 +47,10 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       remove:
       # - org.gnome.eog
-
+  - type: chezmoi
+    repository: "https://github.com/radioaddition/dotfiles"
+    file-conflicts-policy: replace
+    
   - type: bling
     install:
       - ublue-update
