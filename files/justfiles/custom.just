@@ -5,7 +5,7 @@ install-brave:
 alias nix := install-nix
 # Installs the Determinate Systems version of the Nix package manager, which claims to be fully compatible with SELinux. The Secureblue developers advise against this
 install-nix:
-	curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --determinate
+	run0 sh -c 'curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --determinate'
 # Remove the Nix package manager
 remove-nix:
 	/nix/nix-installer uninstall
