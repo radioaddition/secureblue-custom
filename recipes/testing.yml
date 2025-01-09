@@ -1,3 +1,5 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: secureblue-custom-testing
 description: Testing image
 
@@ -54,6 +56,38 @@ modules:
       - pop-launcher
       - pop-gnome-shell-theme
       - gnome-shell-extension-pop-shell
+      # VR Gaming Dependencies
+      - envision
+      - avahi-devel
+      - avahi-glib-devel
+      - cli11-devel
+      - cmake
+      - eigen3-devel
+      - glib2-devel
+      - glib2-devel
+      - glslang-devel
+      - gstreamer1-plugins-base-devel
+      - gstreamer1-devel
+      - ffmpeg-devel
+      - libdrm-devel
+      - mesa-libGL-devel
+      - libnotify-devel
+      - pulseaudio-libs-devel
+      - ffmpeg-devel
+      - systemd-devel
+      - libva-devel
+      - libX11-devel
+      - libxcb-devel
+      - libXrandr-devel
+      - ninja-build
+      - json-devel
+      - openssl-devel
+      - openxr-devel
+      - systemd-devel
+      - vulkan-devel
+      - vulkan-loader-devel
+      - x264-devel
+
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
