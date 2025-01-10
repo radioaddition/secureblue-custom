@@ -33,7 +33,6 @@ modules:
       - 4691 # PiP on top
       - 7 # Removable drive menu
       - 841 # Freon
-      - 3843 # Just Perfection
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-%OS_VERSION%/kylegospo-bazzite-fedora-%OS_VERSION%.repo
@@ -48,6 +47,7 @@ modules:
       - lm_sensors
       - android-tools
       - android-udev-rules
+      - steam-devices
       # The extensions below either aten't available or don't work on  q the gnome-extensions module
       - gnome-shell-extension-gsconnect
       - gnome-shell-extension-logo-menu
@@ -56,37 +56,6 @@ modules:
       - pop-launcher
       - pop-gnome-shell-theme
       - gnome-shell-extension-pop-shell
-      # VR Gaming Dependencies
-      - envision
-      - avahi-devel
-      - avahi-glib-devel
-      - cli11-devel
-      - cmake
-      - eigen3-devel
-      - glib2-devel
-      - glib2-devel
-      - glslang-devel
-      - gstreamer1-plugins-base-devel
-      - gstreamer1-devel
-      - ffmpeg-devel
-      - libdrm-devel
-      - mesa-libGL-devel
-      - libnotify-devel
-      - pulseaudio-libs-devel
-      - ffmpeg-devel
-      - systemd-devel
-      - libva-devel
-      - libX11-devel
-      - libxcb-devel
-      - libXrandr-devel
-      - ninja-build
-      - json-devel
-      - openssl-devel
-      - openxr-devel
-      - systemd-devel
-      - vulkan-devel
-      - vulkan-loader-devel
-      - x264-devel
 
     remove:
       # example: removing firefox (in favor of the flatpak)
