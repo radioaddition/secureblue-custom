@@ -1,7 +1,7 @@
 name: secureblue-custom-testing
 description: Testing image
 
-base-image: ghcr.io/secureblue/cosmic-main-hardened:latest
+base-image: ghcr.io/secureblue/cosmic-main-hardened
 image-version: latest
 
 modules:
