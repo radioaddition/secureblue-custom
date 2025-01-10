@@ -10,4 +10,5 @@ install:
   - 307 # Dock
   - 4691 # PiP on top
   - 7538 # To Do List
+  - 841 # Freon
   - 7 # Removable drive menu
