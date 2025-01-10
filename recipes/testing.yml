@@ -1,9 +1,7 @@
----
-# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: secureblue-custom-testing
 description: Testing image
 
-base-image: ghcr.io/secureblue/silverblue-main-hardened
+base-image: ghcr.io/secureblue/cosmic-main-hardened:latest
 image-version: latest
 
 modules:
@@ -20,19 +18,19 @@ modules:
       - google-fonts:
         - Noto Sans
   - type: justfiles
-  - type: gschema-overrides
-  - type: gnome-extensions
-    install:
-      - 3193 # Blur my shell
-      - 615 # Appindicator
-      - 4269 # Alphabetical app grid
-      - 517 # Caffeine
-      - 6310 # Window title status bar
-      - 5489 # Search light
-      - 307 # Dock
-      - 4691 # PiP on top
-      - 7 # Removable drive menu
-      - 841 # Freon
+#  - type: gschema-overrides
+#  - type: gnome-extensions
+#    install:
+#      - 3193 # Blur my shell
+#      - 615 # Appindicator
+#      - 4269 # Alphabetical app grid
+#      - 517 # Caffeine
+#      - 6310 # Window title status bar
+#      - 5489 # Search light
+#      - 307 # Dock
+#      - 4691 # PiP on top
+#      - 7 # Removable drive menu
+#      - 841 # Freon
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-%OS_VERSION%/kylegospo-bazzite-fedora-%OS_VERSION%.repo
@@ -44,18 +42,18 @@ modules:
       - uutils-coreutils
       - dconf-editor
       - gnome-tweaks
-      - lm_sensors
+#      - lm_sensors
       - android-tools
       - android-udev-rules
       - steam-devices
       # The extensions below either aten't available or don't work on  q the gnome-extensions module
-      - gnome-shell-extension-gsconnect
-      - gnome-shell-extension-logo-menu
-      - gnome-shell-extension-hanabi
+#      - gnome-shell-extension-gsconnect
+#      - gnome-shell-extension-logo-menu
+#      - gnome-shell-extension-hanabi
       # pop-shell packages
-      - pop-launcher
-      - pop-gnome-shell-theme
-      - gnome-shell-extension-pop-shell
+#      - pop-launcher
+#      - pop-gnome-shell-theme
+#      - gnome-shell-extension-pop-shell
 
     remove:
       # example: removing firefox (in favor of the flatpak)
