@@ -5,10 +5,10 @@ install-brave:
 alias nix := install-nix
 # Installs the Determinate Systems version of the Nix package manager, which claims to be fully compatible with SELinux. The Secureblue developers advise against this
 install-nix:
-	@run0 sh -c 'curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --determinate'
+	@run0 sh -c 'curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --determinate --no-confirm'
 # Remove the Nix package manager
 remove-nix:
-	@run0 /nix/nix-installer uninstall
+	@run0 /nix/nix-installer uninstall --no-confirm
 alias rust := install-rust
 # Installs the rust toolkit, which includes the cargo package manager
 install-rust:
