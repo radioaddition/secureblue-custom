@@ -6,7 +6,7 @@ alias nix := install-nix
 # Installs the Determinate Systems version of the Nix package manager, which claims to be fully compatible with SELinux. The Secureblue developers advise against this
 install-nix:
 	#! /bin/run0 /bin/bash
-	curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --determinate --no-confirm
+	curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --no-confirm
 # Remove the Nix package manager
 remove-nix:
 	#! /bin/run0 /bin/bash
