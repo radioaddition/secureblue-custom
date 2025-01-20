@@ -27,6 +27,7 @@ jobs:
           - hyprland.yml
           - hyprland-lts.yml
           - testing.yml
+          - trivalent.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
