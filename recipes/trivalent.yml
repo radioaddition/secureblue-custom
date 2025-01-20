@@ -4,6 +4,8 @@ base-image: ghcr.io/secureblue/securecore-main-hardened
 image-version: latest
 modules:
   - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/secureblue/trivalent/repo/fedora-%OS_VERSION%/secureblue-trivalent-fedora-%OS_VERSION%.repo
     install:
       - trivalent
   - type: signing
