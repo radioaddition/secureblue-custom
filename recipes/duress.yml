@@ -10,14 +10,11 @@ stages:
           - mkdir -p /out/ && mv ./bin/* /out
 modules:
   - type: copy
-    from: pam-duress
     src: /out/duress_sign
     dest: /usr/bin/
   - type: copy
-    from: pam-duress
     src: /out/pam_test
     dest: /usr/bin/
   - type: copy
-    from: pam-duress
     src: /out/pam_duress.so
     dest: /usr/lib64/security
