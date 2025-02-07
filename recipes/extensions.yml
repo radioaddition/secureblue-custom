@@ -1,15 +1,16 @@
 
 type: gnome-extensions
 install:
-  - 3193 # Blur my shell
-  - 615 # Appindicator
-  - 4269 # Alphabetical app grid
-  - 517 # Caffeine
-  - 6310 # Window title status bar
-  - 5489 # Search light
   - 307 # Dock
-  - 4691 # PiP on top
-  - 7538 # To Do List
-  - 841 # Freon
-  - 7 # Removable drive menu
+  - 3193 # Blur my shell
+  - 4269 # Alphabetical app grid
   - 4481 # Forge (tiling)
+  - 4691 # PiP on top
+  - 517 # Caffeine
+  - 5489 # Search light
+  - 615 # Appindicator
+  - 6310 # Window title status bar
+  - 7 # Removable drive menu
+  - 7538 # To Do List
+  - 779 # Clipboard manager
+  - 841 # Freon
