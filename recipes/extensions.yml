@@ -4,7 +4,6 @@ install:
   - 307 # Dock
   - 3193 # Blur my shell
   - 4269 # Alphabetical app grid
-  - 4481 # Forge (tiling)
   - 4691 # PiP on top
   - 517 # Caffeine
   - 5489 # Search light
