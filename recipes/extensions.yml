@@ -6,8 +6,6 @@ install:
   - 4269 # Alphabetical app grid
   - 4691 # PiP on top
   - 517 # Caffeine
-  - 5489 # Search light
-  - 615 # Appindicator
   - 6310 # Window title status bar
   - 7 # Removable drive menu
   - 7065 # Tiling
@@ -15,3 +13,7 @@ install:
   - 779 # Clipboard manager
   - 7901 # Foresight
   - 841 # Freon
+
+  # Awaiting GNOME 48 support
+  # - 5489 # Search light
+  # - 615 # Appindicator
