@@ -10,6 +10,7 @@ install:
   - 615 # Appindicator
   - 6310 # Window title status bar
   - 7 # Removable drive menu
+  - 7065 # Tiling
   - 7538 # To Do List
   - 779 # Clipboard manager
   - 7901 # Foresight
