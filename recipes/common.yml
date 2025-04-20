@@ -36,7 +36,7 @@ modules:
       - coreutils
 
   - type: chezmoi
-    repository: "https://github.com/radioaddition/dotfiles"
+    repository: "https://codeberg.org/radioaddition/dotfiles"
     all-users: false
     file-conflict-policy: "replace"
     
