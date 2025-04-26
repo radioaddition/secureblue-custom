@@ -24,6 +24,8 @@ jobs:
           # !! Add your recipes here 
           - gnome.yml
           - gnome-lts.yml
+          - cosmic.yml
+          - cosmic-lts.yml
           - hyprland.yml
           - hyprland-lts.yml
     steps:

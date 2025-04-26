@@ -1,0 +1,9 @@
+name: secureblue-custom-cosmic-lts
+description: Personal build of secureblue using Hyprland
+
+base-image: ghcr.io/secureblue/cosmic-main-hardened
+image-version: latest
+
+modules:
+  - from-file: common.yml
+  - from-file: lts.yml
