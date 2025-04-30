@@ -18,3 +18,4 @@ modules:
     - gnome-shell-extension-logo-menu
     - gnome-shell-extension-pop-shell
     - wofi
+    - lm_sensors

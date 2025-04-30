@@ -27,7 +27,6 @@ modules:
       - uutils-coreutils
       - android-tools
       - android-udev-rules
-      - lm_sensors
       - steam-devices
     remove:
       - coreutils
