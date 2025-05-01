@@ -21,13 +21,14 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
-      - fish
-      - zsh
-      - neovim
-      - uutils-coreutils
       - android-tools
       - android-udev-rules
+      - firewall-applet
+      - fish
+      - neovim
       - steam-devices
+      - uutils-coreutils
+      - zsh
 
       # Qemu/KVM stuff
       - libvirt
