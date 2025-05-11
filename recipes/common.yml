@@ -27,6 +27,7 @@ modules:
       - fish
       - neovim
       - steam-devices
+      - tailscale
       - uutils-coreutils
       - zsh
 
