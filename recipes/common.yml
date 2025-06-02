@@ -11,6 +11,7 @@ modules:
        - Iosevka
        - IosevkaTerm
        - IosevkaTermSlab
+       - JetBrainsMono
       google-fonts:
        - Noto Sans
   - type: justfiles
