@@ -33,6 +33,7 @@ Then, rebase to the latest build:
   - `secureblue-custom-cosmic-lts`
   - `secureblue-custom-sway`
   - `secureblue-custom-sway-lts`
+
 NOTE: cosmic is currently not recommended due to a lack of screen security and instability. I most likely won't update the recipe for this image until this is changed. the image will still receive automatic updates from upstream
 
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
