@@ -27,6 +27,7 @@ modules:
       - firewall-applet
       - fish
       - neovim
+      - power-profiles-daemon
       - steam-devices
       - tailscale
       - uutils-coreutils
