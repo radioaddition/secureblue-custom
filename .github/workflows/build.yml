@@ -26,8 +26,8 @@ jobs:
           - gnome-lts.yml
           - cosmic.yml
           - cosmic-lts.yml
-          - hyprland.yml
-          - hyprland-lts.yml
+          - sway.yml
+          - sway-lts.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image

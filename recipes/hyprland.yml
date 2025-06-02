@@ -1,8 +1,0 @@
-name: secureblue-custom-hyprland
-description: Personal build of secureblue using Hyprland
-
-base-image: ghcr.io/secureblue/wayblue-hyprland-main-hardened
-image-version: latest
-
-modules:
-  - from-file: common.yml
