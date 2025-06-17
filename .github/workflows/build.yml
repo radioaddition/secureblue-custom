@@ -1,7 +1,7 @@
 name: bluebuild
 on:
   schedule:
-    - cron: "00 06 20 * *" # build at 06:20 UTC every day 
+    - cron: "20 06 * *" # build at 06:20 UTC every day 
                           # (20 minutes after last secureblue images start building)
   push:
     paths-ignore: # don't rebuild if only documentation has changed
