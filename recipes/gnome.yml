@@ -17,5 +17,6 @@ modules:
     - gnome-shell-extension-hanabi
     - gnome-shell-extension-logo-menu
     - gnome-shell-extension-pop-shell
+    - pop-launcher
     - wofi
     - lm_sensors
