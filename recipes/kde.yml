@@ -1,0 +1,8 @@
+name: secureblue-custom-kde
+description: Personal build of secureblue using KDE
+
+base-image: ghcr.io/secureblue/kinoite-main-hardened
+image-version: latest
+
+modules:
+  - from-file: common.yml

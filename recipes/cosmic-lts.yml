@@ -1,5 +1,5 @@
 name: secureblue-custom-cosmic-lts
-description: Personal build of secureblue using Hyprland
+description: Personal build of secureblue using COSMIC with the LTS kernel
 
 base-image: ghcr.io/secureblue/cosmic-main-hardened
 image-version: latest

@@ -1,0 +1,10 @@
+name: secureblue-custom-cosmic-lts
+
+description: Personal build of secureblue using KDE with the LTS kernel
+
+base-image: ghcr.io/secureblue/kinoite-main-hardened
+image-version: latest
+
+modules:
+  - from-file: common.yml
+  - from-file: lts.yml
