@@ -3,11 +3,7 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/kwizart/kernel-longterm-6.12/repo/fedora-%OS_VERSION%/kwizart-kernel-longterm-6.1.2-fedora-%OS_VERSION%.repo
 install:
   - kernel-longterm
-  - kernel-longterm-core
-  - kernel-longterm-modules
-  - kernel-longterm-modules-extra
+  - kernel-longterm-headers
 remove:
   - kernel
-  - kernel-core
-  - kernel-modules
-  - kernel-modules-extra
+  - kernel-headers
