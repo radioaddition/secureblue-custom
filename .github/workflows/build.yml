@@ -24,6 +24,8 @@ jobs:
           # !! Add your recipes here 
           - gnome.yml
           - gnome-lts.yml
+          - kde.yml
+          - kde-lts.yml
           - cosmic.yml
           - cosmic-lts.yml
           - sway.yml

@@ -29,6 +29,8 @@ Then, rebase to the latest build:
 - Where `$IMAGE` is one of:
   - `secureblue-custom-gnome`
   - `secureblue-custom-gnome-lts`
+  - `secureblue-custom-kde`
+  - `secureblue-custom-kde-lts`
   - `secureblue-custom-cosmic`
   - `secureblue-custom-cosmic-lts`
   - `secureblue-custom-sway`
