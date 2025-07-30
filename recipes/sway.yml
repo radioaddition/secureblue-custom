@@ -6,6 +6,3 @@ image-version: latest
 
 modules:
   - from-file: common.yml
-  - type: rpm-ostree
-    install:
-      - power-profiles-daemon
