@@ -52,6 +52,11 @@ modules:
     remove:
       - coreutils
 
+  - type: soar
+    additional-repos: true
+    auto-upgrade: true
+    upgrade-interval: '3h'
+
   - type: chezmoi
     repository: "https://codeberg.org/radioaddition/dotfiles"
     all-users: false
