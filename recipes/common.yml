@@ -1,10 +1,12 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
 modules:
+
   - type: files
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+
   - type: fonts
     fonts:
       nerd-fonts:
@@ -14,8 +16,12 @@ modules:
        - JetBrainsMono
       google-fonts:
        - Noto Sans
-  - type: justfiles
-  - type: gschema-overrides
+      url-fonts:
+       - name: Miracode
+         url: https://github.com/IdreesInc/Miracode/releases/latest/download/Miracode.ttf
+       - name: Monocraft
+         url: https://github.com/IdreesInc/Monocraft/releases/latest/download/Monocraft-ttf-otf.zip
+
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-%OS_VERSION%/kylegospo-bazzite-fedora-%OS_VERSION%.repo
@@ -62,4 +68,6 @@ modules:
     all-users: false
     file-conflict-policy: "replace"
     
+  - type: justfiles
+  - type: gschema-overrides
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
