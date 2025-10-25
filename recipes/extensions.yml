@@ -1,7 +1,6 @@
 
 type: gnome-extensions
 install:
-  - 2890 # Tray Icons
   - 307 # Dock
   - 3193 # Blur my shell
   - 3843 # Just perfection
@@ -10,16 +9,13 @@ install:
   - 4691 # PiP on top
   - 517 # Caffeine
   - 6310 # Window title status bar
-  - 6580 # Open Bar
   - 6670 # Bluetooth Battery Meter
   - 7 # Removable drive menu
   - 7048 # Rounded Window Corners
-  - 7065 # Tiling
+  - 4481 # Tiling
   - 7538 # To Do List
   - 779 # Clipboard manager
   - 7901 # Foresight
   - 841 # Freon
-
-  # Awaiting GNOME 48 support
-  # - 5489 # Search light
-  # - 615 # Appindicator
+  - 5489 # Search light
+  - 615 # Appindicator
