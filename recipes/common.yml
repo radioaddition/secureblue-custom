@@ -32,6 +32,7 @@ modules:
       - android-udev-rules
       - firewall-applet
       - fish
+      - gamescope
       - neovim
       - steam-devices
       - tailscale
