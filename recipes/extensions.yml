@@ -12,7 +12,6 @@ install:
   - 6670 # Bluetooth Battery Meter
   - 7 # Removable drive menu
   - 7048 # Rounded Window Corners
-  - 4481 # Tiling
   - 7538 # To Do List
   - 779 # Clipboard manager
   - 7901 # Foresight
