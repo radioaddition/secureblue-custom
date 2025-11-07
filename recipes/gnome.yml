@@ -18,7 +18,7 @@ modules:
     - gnome-shell-extension-logo-menu
     - gnome-shell-extension-pop-shell
     - pop-launcher
-    - pop-gnome-shell-theme
+    # - pop-gnome-shell-theme
     - pop-icon-theme
     - wofi
     - lm_sensors

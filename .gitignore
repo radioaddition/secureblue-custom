@@ -3,3 +3,4 @@ cosign.private
 /Containerfile
 /Containerfile.*
 nohup.out
+/.bluebuild-scripts_*
