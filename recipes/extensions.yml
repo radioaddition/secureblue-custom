@@ -1,19 +1,19 @@
 
 type: gnome-extensions
 install:
-  - 307 # Dock
-  - 3193 # Blur my shell
-  - 4269 # Alphabetical app grid
-  - 4470 # Media Controls
-  - 4691 # PiP on top
+  # - 307 # Dock
+  # - 3193 # Blur my shell
+  # - 4269 # Alphabetical app grid
+  # - 4470 # Media Controls
+  # - 4691 # PiP on top
   - 517 # Caffeine
-  - 6310 # Window title status bar
-  - 6670 # Bluetooth Battery Meter
-  - 7 # Removable drive menu
-  - 7538 # To Do List
-  - 779 # Clipboard manager
+  # - 6310 # Window title status bar
+  # - 6670 # Bluetooth Battery Meter
+  # - 7 # Removable drive menu
+  # - 7538 # To Do List
+  # - 779 # Clipboard manager
   - 5489 # Search light
-  - 615 # Appindicator
+  # - 615 # Appindicator
 
 # Awaiting GNOME 49 support
   # - 841 # Freon
