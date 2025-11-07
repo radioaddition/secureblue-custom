@@ -12,6 +12,8 @@ install:
   - 7 # Removable drive menu
   - 7538 # To Do List
   - 779 # Clipboard manager
-  - 841 # Freon
   - 5489 # Search light
   - 615 # Appindicator
+
+# Awaiting GNOME 49 support
+  # - 841 # Freon
