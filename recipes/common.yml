@@ -20,7 +20,7 @@ modules:
        - name: Miracode
          url: https://github.com/IdreesInc/Miracode/releases/latest/download/Miracode.ttf
        - name: Monocraft
-         url: https://github.com/IdreesInc/Monocraft/releases/latest/download/Monocraft-ttf-otf.zip
+         url: https://github.com/IdreesInc/Monocraft/releases/latest/download/Monocraft-ttf.zip
 
   - type: rpm-ostree
     repos:
