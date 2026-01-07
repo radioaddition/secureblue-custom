@@ -30,10 +30,12 @@ modules:
     install:
       - android-tools
       - android-udev-rules
+      - cronie-anacron
       - firewall-applet
       - fish
       - gamescope
       - neovim
+      - podman-compose
       - steam-devices
       - tailscale
       - uutils-coreutils
