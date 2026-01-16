@@ -37,7 +37,6 @@ modules:
       - neovim
       - podman-compose
       - steam-devices
-      - tailscale
       - uutils-coreutils
       - zsh
 
