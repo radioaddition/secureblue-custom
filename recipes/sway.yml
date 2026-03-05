@@ -1,4 +1,4 @@
-name: secureblue-custom-sway
+name: secureblue-custom-sericea
 description: Personal build of secureblue using sway
 
 base-image: ghcr.io/secureblue/sericea-main-hardened

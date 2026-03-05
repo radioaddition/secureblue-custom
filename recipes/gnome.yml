@@ -1,4 +1,4 @@
-name: secureblue-custom-gnome
+name: secureblue-custom-silverblue
 description: GNOME version of my personal secureblue build. This is the recommended image as hyprland doesn't currently have screen capture security
 
 base-image: ghcr.io/secureblue/silverblue-main-hardened

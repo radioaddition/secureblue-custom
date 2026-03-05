@@ -1,4 +1,4 @@
-name: secureblue-custom-sway-lts
+name: secureblue-custom-sericea-lts
 description: Personal build of secureblue using sway with the LTS kernel
 
 base-image: ghcr.io/secureblue/sericea-main-hardened

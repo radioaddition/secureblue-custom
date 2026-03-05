@@ -1,4 +1,4 @@
-name: secureblue-custom-plasma
+name: secureblue-custom-kinoite
 description: Personal build of secureblue using KDE
 
 base-image: ghcr.io/secureblue/kinoite-main-hardened
