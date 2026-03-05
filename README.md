@@ -27,14 +27,14 @@ Then, rebase to the latest build:
   systemctl reboot
   ```
 - Where `$IMAGE` is one of:
-  - `secureblue-custom-gnome`
-  - `secureblue-custom-gnome-lts`
-  - `secureblue-custom-kde`
-  - `secureblue-custom-kde-lts`
+  - `secureblue-custom-silverblue`
+  - `secureblue-custom-silverblue-lts`
+  - `secureblue-custom-kinoite`
+  - `secureblue-custom-kinoite-lts`
   - `secureblue-custom-cosmic`
   - `secureblue-custom-cosmic-lts`
-  - `secureblue-custom-sway`
-  - `secureblue-custom-sway-lts`
+  - `secureblue-custom-sericea`
+  - `secureblue-custom-sericea-lts`
 
 NOTE: cosmic is currently not recommended due to a lack of screen security and instability. I most likely won't update the recipe for this image until this is changed. the image will still receive automatic updates from upstream
 
