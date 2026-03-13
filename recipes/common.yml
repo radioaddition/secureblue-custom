@@ -60,10 +60,6 @@ modules:
     remove:
       - coreutils
 
-  - type: brew
-    nofile-limits: true # increase nofile limits
-    brew-analytics: false # disable telemetry
-
   - type: chezmoi
     repository: "https://codeberg.org/radioaddition/dotfiles"
     all-users: false
