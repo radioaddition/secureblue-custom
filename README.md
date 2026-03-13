@@ -7,7 +7,7 @@ See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup i
 > **Warning**  
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
-First, install [Fedora Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/)
+First, install [Secureblue](https://secureblue.dev/install)
 Then, rebase to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
