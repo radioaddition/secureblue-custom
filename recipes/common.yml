@@ -29,6 +29,8 @@ modules:
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
       - android-tools
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
       - android-udev-rules
       - cronie-anacron
       - firewall-applet
