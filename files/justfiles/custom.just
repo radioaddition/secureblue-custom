@@ -22,4 +22,4 @@ install-rust:
 tempsudo:
 	#! /bin/run0 /bin/bash
 	ostree admin unlock
-	dnf5 install sudo -y
+	dnf5 reinstall sudo -y
