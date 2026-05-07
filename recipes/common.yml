@@ -51,5 +51,4 @@ modules:
     file-conflict-policy: "replace"
     
   - type: justfiles
-  - type: gschema-overrides
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
