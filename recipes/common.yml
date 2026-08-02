@@ -34,7 +34,7 @@ modules:
           chroot: fedora-44-x86_64
       keys:
         - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
-      nonfree: rpmfusion
+      nonfree: negativo17
     install:
       skip-unavailable: true
       packages:
