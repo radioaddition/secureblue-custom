@@ -28,8 +28,10 @@ modules:
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
-        - kylegospo/bazzite
-        - ublue-os/staging
+        - name: kylegospo/bazzite
+          chroot: fedora-%OS_VERSION%-x86_64
+        - name: ublue-os/staging
+          chroot: fedora-%OS_VERSION%-x86_64
       keys:
         - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
       nonfree: rpmfusion
