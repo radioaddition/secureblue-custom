@@ -7,7 +7,7 @@ image-version: latest
 modules:
   - from-file: common.yml
   # - from-file: extensions.yml
-  - type: rpm-ostree
+  - type: dnf
     install:
     - gnome-shell-extension-gsconnect
     - gnome-shell-extension-logo-menu

@@ -22,15 +22,20 @@ modules:
        - name: Monocraft
          url: https://github.com/IdreesInc/Monocraft/releases/latest/download/Monocraft-ttf.zip
 
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-%OS_VERSION%/kylegospo-bazzite-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
-      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      cleanup: true
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      copr:
+        - kylegospo/bazzite
+        - ublue-os/staging
+      keys:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+      nonfree: rpmfusion
     install:
+      skip-unavailable: true
       - android-tools
-      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
-      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
       - android-udev-rules
       - cronie-anacron
       - firewall-applet
