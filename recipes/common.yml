@@ -35,20 +35,22 @@ modules:
       nonfree: rpmfusion
     install:
       skip-unavailable: true
-      - android-tools
-      - android-udev-rules
-      - cronie-anacron
-      - firewall-applet
-      - fish
-      - gamescope
-      - neovim
-      - podman-compose
-      - steam-devices
-      - uutils-coreutils
-      - zsh
+      packages:
+        - android-tools
+        - android-udev-rules
+        - cronie-anacron
+        - firewall-applet
+        - fish
+        - gamescope
+        - neovim
+        - podman-compose
+        - steam-devices
+        - uutils-coreutils
+        - zsh
 
     remove:
-      - coreutils
+      packages:
+        - coreutils
 
   - type: chezmoi
     repository: "https://codeberg.org/radioaddition/dotfiles"

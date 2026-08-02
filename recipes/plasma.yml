@@ -8,4 +8,5 @@ modules:
   - from-file: common.yml
   - type: dnf
     install:
-      - kvantum
+      packages:
+        - kvantum
