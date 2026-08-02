@@ -1,5 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+
 modules:
 
   - type: files
@@ -47,12 +48,7 @@ modules:
         - neovim
         - podman-compose
         - steam-devices
-        - uutils-coreutils
         - zsh
-
-    remove:
-      packages:
-        - coreutils
 
   - type: chezmoi
     repository: "https://codeberg.org/radioaddition/dotfiles"
