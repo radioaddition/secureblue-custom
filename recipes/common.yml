@@ -40,7 +40,6 @@ modules:
       skip-unavailable: true
       packages:
         - android-tools
-        - android-udev-rules
         - cronie-anacron
         - firewall-applet
         - fish
