@@ -61,13 +61,5 @@ modules:
     all-users: false
     file-conflict-policy: "replace"
   
-  - type: akmods
-    base: main
-    install:
-      - v4l2loopback
-      - kvmfr
-      - ryzen-smu
-      - zenergy
-    
   - type: justfiles
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
