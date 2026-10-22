@@ -28,10 +28,13 @@ modules:
       cleanup: true
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
       copr:
         - name: kylegospo/bazzite
           chroot: fedora-44-x86_64
         - name: ublue-os/staging
+          chroot: fedora-44-x86_64
+        - name: yanqiyu/waydroid
           chroot: fedora-44-x86_64
       keys:
         - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
@@ -47,12 +50,24 @@ modules:
         - neovim
         - podman-compose
         - steam-devices
+        - tailscale
+        - terra-release
+        - terra-release-extras
+        - terra-release-mesa
         - zsh
 
   - type: chezmoi
     repository: "https://codeberg.org/radioaddition/dotfiles"
     all-users: false
     file-conflict-policy: "replace"
+  
+  - type: akmods
+    base: main
+    install:
+      - v4l2loopback
+      - kvmfr
+      - ryzen-smu
+      - zenergy
     
   - type: justfiles
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
