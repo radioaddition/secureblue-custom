@@ -41,6 +41,7 @@ modules:
       nonfree: negativo17
     install:
       skip-unavailable: true
+      install-weak-deps: true
       packages:
         - android-tools
         - cronie-anacron
