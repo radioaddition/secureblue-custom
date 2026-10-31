@@ -14,7 +14,7 @@ remove-nix:
 	#! /bin/run0 /bin/bash
 	/nix/nix-installer uninstall --no-confirm
 alias rust := install-rust
-# Installs the rust toolkit, which includes the cargo package manager
+# Installs the rust toolkit via rustup, which includes the cargo package manager
 install-rust:
 	@curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
