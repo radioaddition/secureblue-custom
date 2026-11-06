@@ -13,6 +13,5 @@ modules:
         - gnome-shell-extension-gsconnect
         - gnome-shell-extension-pop-shell
         - pop-launcher
-        - pop-gnome-shell-theme
         - pop-icon-theme
         - lm_sensors
