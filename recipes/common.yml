@@ -57,6 +57,10 @@ modules:
         - terra-release-mesa
         - zsh
 
+  - type: soar
+    auto-upgrade: true
+    upgrade-interval: "3h"
+
   - type: chezmoi
     repository: "https://codeberg.org/radioaddition/dotfiles"
     all-users: false
