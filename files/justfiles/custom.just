@@ -18,8 +18,10 @@ alias rust := install-rust
 install-rust:
 	@curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-# Temporarily installs sudo until next reboot, useful for some install scripts. Be sure to reboot as soon as you're done
+# Temporarily installs sudo-rs and links a sudo binary until next reboot, useful for some install scripts and installing build tools where distrobox is insufficient. Be sure to reboot as soon as you're done
 tempsudo:
 	#! /bin/run0 /bin/bash
 	ostree admin unlock
-	dnf5 reinstall sudo -y
+	dnf5 install sudo-rs -y
+  ln -s /usr/bin/sudo-rs /usr/bin/sudo
+  echo "radioaddition ALL=(ALL) ALL" | tee /etc/sudoers.d/radioaddition
